@@ -6,7 +6,7 @@
 
     if (isset($_POST['submit']))
     {
-        $user_id = $_POST['user_id'];
+        $man_id = $_POST['user_id'];
         $password = $_POST['password'];
         $authority = $_POST['authority'];
 
