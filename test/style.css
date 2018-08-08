@@ -1,0 +1,324 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	background: url(bg2.jpg);
+	background-size: cover;
+	font-family: sans-serif;
+}
+
+.header
+{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100px;
+	box-sizing: border-box;
+}
+
+.header .sub_header
+{
+	margin-top: 40px;
+	margin-right: 40px;
+}
+
+.header .sub_header #profile
+{
+	float: right;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-left: 20px;
+	height: 30px;
+	width: 50px;
+}
+
+.header .sub_header #registration
+{
+	float: right;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-left: 20px;
+	height: 30px;
+	width: 90px;
+	border: solid 2px #d98a2d;
+	border-radius: 5px;
+}
+
+.header .sub_header #result
+{
+	float: right;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-left: 20px;
+	height: 30px;
+	width: 50px;
+}
+
+.header .sub_header #library
+{
+	float: right;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-left: 20px;
+	height: 30px;
+	width: 50px;
+}
+
+.header .sub_header #logout
+{
+	float: right;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-left: 20px;
+	height: 30px;
+	width: 50px;
+}
+
+.header .sub_header a
+{
+	float: right;
+	text-decoration: none;
+	color: white;
+	flex: none;
+}
+
+.img_container
+{
+	position: absolute;
+	top: 25%;
+	left: 5%;
+	width: 320px;
+	height: 425px;
+	box-sizing: border-box;
+	box-shadow: -1px 7px 50px rgba(0,0,0,.8);
+	border-radius: 5px;
+}
+
+.img_container img
+{
+	position: relative;
+    margin-top: 25px;
+    margin-left: 25px;
+    border-radius: 10px;
+}
+
+.img_container #name
+{
+	position: relative;
+	margin-top: 20px;
+	border: solid 2px white;
+	border-radius: 10px;
+	width: 265px;
+	height: 35px;
+	text-align: center;
+	padding: 10px 0 10px 0px;
+}
+
+.content
+{
+	height: 500px;
+	width: 800px;
+	float: right;
+	margin-top: 154px;
+	margin-right: 88px;
+}
+
+.content #title_r
+{
+	position: relative;
+	margin-top: 25px;
+	margin-right: 88px;
+	width: 70px;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border: solid 2px white;
+	border-radius: 10px;
+}
+
+.content #roll
+{
+	position: relative;
+	margin-top: -33px;
+	margin-left: 90px;
+}
+
+.content #title_d
+{
+	position: relative;
+	margin-top: -33px;
+	margin-left: 430px;
+	width: 150px;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border: solid 2px white;
+	border-radius: 10px;
+}
+
+.content #dept
+{
+	position: relative;
+	margin-top: -33px;
+	margin-left: 600px;
+}
+
+.content #title_f
+{
+	position: relative;
+	margin-top: 30px;
+	margin-right: 88px;
+	width: 90px;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border: solid 2px white;
+	border-radius: 10px;
+}
+
+.content #father
+{
+	position: relative;
+	margin-top: -33px;
+	margin-left: 110px;
+}
+
+.content #title_m
+{
+	position: relative;
+	margin-top: -33px;
+	margin-left: 430px;
+	width: 90px;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border: solid 2px white;
+	border-radius: 10px;
+}
+
+.content #mother
+{
+	position: relative;
+	margin-top: -33px;
+	margin-left: 540px;
+}
+
+.content #title_a
+{
+	position: relative;
+	margin-top: 30px;
+	margin-right: 88px;
+	width: 110px;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border: solid 2px white;
+	border-radius: 10px;
+}
+
+.content #address
+{
+	position: relative;
+	margin-top: -33px;
+	margin-left: 130px;
+}
+
+.content #title_h
+{
+	position: relative;
+	margin-top: 30px;
+	margin-right: 88px;
+	width: 130px;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border: solid 2px white;
+	border-radius: 10px;
+}
+
+.content #residence
+{
+	position: relative;
+	margin-top: -33px;
+	margin-left: 150px;
+}
+
+.content #title_b
+{
+	position: relative;
+	margin-top: -33px;
+	margin-left: 430px;
+	width: 150px;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border: solid 2px white;
+	border-radius: 10px;
+}
+
+.content #boarder
+{
+	position: relative;
+	margin-top: -33px;
+	margin-left: 600px;
+}
+
+.content #title_s
+{
+	position: relative;
+	margin-top: 30px;
+	margin-right: 88px;
+	width: 60px;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border: solid 2px white;
+	border-radius: 10px;
+}
+
+.content #sex
+{
+	position: relative;
+	margin-top: -33px;
+	margin-left: 80px;
+}
+
+.content #title_bg
+{
+	position: relative;
+	margin-top: -33px;
+	margin-left: 430px;
+	width: 160px;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border: solid 2px white;
+	border-radius: 10px;
+}
+
+.content #blood_group
+{
+	position: relative;
+	margin-top: -33px;
+	margin-left: 610px;
+}
+
+.content #title_e
+{
+	position: relative;
+	margin-top: 30px;
+	margin-right: 88px;
+	width: 80px;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border: solid 2px white;
+	border-radius: 10px;
+}
+
+.content #email
+{
+	position: relative;
+	margin-top: -33px;
+	margin-left: 100px;
+}

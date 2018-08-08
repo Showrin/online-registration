@@ -1,0 +1,994 @@
+html, body 
+{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	font-family: calibri;
+	text-align: center;
+	background-color: #f7f6f6;
+}
+
+ul
+{
+	list-style: none;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+
+
+
+
+
+/* ------------------------ Header ---------------------------- */
+
+header
+{
+	width: 100%;
+	height: 65px;
+	background-color: white;
+	box-shadow: 0 5px 15px rgba(0,0,0, .6);
+	position: fixed;
+	z-index: 1;
+}
+
+header #page_marker
+{
+	color: #388E3C;
+	font-size: 19px;
+	font-weight: 600;
+}
+
+header img
+{
+	float: left;
+	width: 3%;
+	margin-left: 10%;
+	margin-top: .5%;
+}
+header img:hover
+{
+	transform: scale(.9);
+	transition: all 400ms;
+}
+
+header nav
+{
+	float: right;
+	margin-right: 30px;
+}
+
+header nav ul li
+{
+	float: left;
+	text-align: center;
+	margin-right: 30px;
+	margin-top: 5px;
+}
+header nav ul li:hover
+{
+	transform: scale(1.1);
+	transition: all 300ms;
+}
+
+header nav ul li a
+{
+	color: #4CAF50;
+	font-size: 18px;
+	font-weight: 600;
+}
+header nav ul li a:hover
+{
+	color: #388E3C;
+	transition: all 300ms;
+}
+
+
+
+
+
+
+
+/* --------------------- Cover -----------------------*/
+
+#cover
+{
+	background-image: url(../images/profile_cover.jpg);
+	background-attachment: fixed;
+	width: 100%;
+	height: 500px;
+	box-shadow: 0 5px 15px rgba(0,0,0, .6);
+}
+
+
+
+
+
+/* --------------------- Switching To Progress Page -----------------------*/
+
+#switching_apply_to_progress
+{
+	width: 100%;
+	height: 150px;
+}
+
+#switching_apply_to_progress #apply_btn
+{
+	padding: 10px 100px 10px 100px;
+	border: solid 2px #252525;
+	background-color: #252525;
+	border-radius: 10px;
+	color: white;
+	margin-right: 50px;
+}
+
+#switching_apply_to_progress #progress_btn
+{
+	padding: 10px 100px 10px 100px;
+	border: solid 2px #252525;
+	background-color: white;
+	border-radius: 10px;
+	color: #252525;
+}
+#switching_apply_to_progress #progress_btn:hover
+{
+	background-color: #252525;
+	color: white;
+	transition: all 300ms;
+}
+
+
+
+
+
+
+
+/* --------------------- Switching To Apply Page -----------------------*/
+
+#switching_progress_to_apply
+{
+	width: 100%;
+	height: 150px;
+}
+
+#switching_progress_to_apply #apply_btn
+{
+	padding: 10px 100px 10px 100px;
+	border: solid 2px #252525;
+	background-color: white;
+	border-radius: 10px;
+	color: #252525;
+	margin-right: 50px;
+}
+#switching_progress_to_apply #apply_btn:hover
+{
+	background-color: #252525;
+	color: white;
+	transition: all 300ms;
+}
+
+#switching_progress_to_apply #progress_btn
+{
+	padding: 10px 100px 10px 100px;
+	border: solid 2px #252525;
+	background-color: #252525;
+	border-radius: 10px;
+	color: white;
+}
+
+
+
+
+
+
+/* --------------------- Progress -----------------------*/
+
+
+#progress
+{
+	min-height: 80%;
+}
+
+#progress #message
+{
+    width: 1125px;
+    height: 90px;
+    margin-top: 150px;
+    margin-left: 110px;
+}
+
+#progress #text_alert
+{
+    color: #ff7e7e;
+}
+        
+#progress #title_container
+{
+    width: 100%;
+    height: 60px;
+    margin-top: 100px;
+}
+        
+#progress #title
+{
+    width: 13.5%;
+    height: 60px;
+    background-color: darkolivegreen;
+    margin-left: 20px;
+    float: left;
+}
+
+#progress #title_container .left_margin
+{
+	margin-left: 13%;
+}
+        
+#progress #progress_container
+{
+    width: 100%;
+    height: 60px;
+    margin-top: 10px;
+}
+
+#progress #progress_container #progress_box
+{
+    width: 13.5%;
+    height: 60px;
+    background-color: lightgrey;
+    margin-left: 20px;
+    float: left;
+}
+        
+#progress #text_color
+{
+    color: white;
+}
+        
+#progress #text_color_approved
+{
+    color: green;
+}
+        
+#progress #text_color_processing
+{
+    color: darkorange;
+}
+        
+#progress #text_color_disapproved
+{
+    color: red;
+}
+        
+#progress #text_color_apply
+{
+    color: blue;
+}
+        
+#progress #alert_message
+{
+    width: 100%;
+    height: 20px;
+    margin-top: 60px;
+}
+        
+#progress #btn
+{
+    width: 200px;
+    height: 50px;
+    background-color: darkolivegreen;
+}
+        
+#progress #text
+{
+    color: darkolivegreen;
+}
+
+
+
+
+/* --------------------- Advisor Selection -----------------------*/
+
+#advisor_selection
+{
+	min-height: 50%;
+}
+
+#advisor_selection #selection_container
+{
+    width: 100%;
+    height: 100px;
+    margin-top: 100px;
+}
+        
+#advisor_selection #drop_down_style
+{
+    width: 150px;
+    height: 30px;
+    margin-bottom: 60px;
+}
+
+
+
+
+
+/* --------------------- Info -----------------------*/
+
+#info
+{
+	width: 100%;
+	min-height: 70%;
+	margin-top: -220px;
+}
+
+#info #pro_pic
+{
+	width: 100%;
+	height: 320px;
+}
+
+#info #pro_pic img
+{
+	width: 270px;
+	height: 300px;
+	border: solid 4px white;
+	border-radius: 3px;
+	box-shadow: 0px 0px 20px 2px rgba(0,0,0, .5);
+}
+
+#info #pro_name p a
+{
+	color: #252525;
+	font-size: 200%;
+	font-weight: bolder;
+}
+
+#info #pro_name p a:hover
+{
+	color: #388E3C;
+	transition: all 300ms;
+}
+
+#info #text
+{
+	font-size: 20px;
+	color: #252525;
+	text-align: left;
+	margin-left: 33%;
+}
+
+
+
+
+
+
+/* --------------------- Course Selection -----------------------*/
+
+#yr_sem_selection
+{
+	min-height: 100%;
+}
+
+#yr_sem_selection form select
+{
+	border: none; 
+	outline: none; 
+	background: rgba(0,0,0, .3); 
+	height: 30px; 
+	width: 150px; 
+	border-radius: 10px;
+	margin-right: 40px;
+}
+
+#yr_sem_selection form input
+{
+	width: 100px; 
+	height: 30px; 
+	background: transparent; 
+	border: solid 1px #252525; 
+	outline: none; 
+	border-radius: 10px; 
+	color: #252525;
+}
+#yr_sem_selection form input:hover
+{
+	background-color: #252525;
+	color: white;
+	transition: all 300ms;
+}
+
+#yr_sem_selection #session_container
+{
+    width: 100%;
+    height: 70px;
+    margin-top: 10%;
+    margin-left: 8%;
+}
+        
+#yr_sem_selection #session_selection
+{
+    width: 255px;
+    height: 60px;
+    margin-left: 20px;
+    float: left;
+}
+
+#yr_sem_selection #table_header_container
+{
+    width: 100%;
+    height: 70px;
+    margin-top: 10%;
+    margin-left: 13%;
+}
+
+#yr_sem_selection #title_small
+{
+    width: 8%;
+    height: 60px;
+    background-color: darkolivegreen;
+    margin-left: 20px;
+    float: left;
+}
+
+#yr_sem_selection #title_large
+{
+    width: 440px;
+    height: 60px;
+    background-color: darkolivegreen;
+    margin-left: 20px;    
+    float: left;
+}
+        
+#yr_sem_selection #text_color
+{
+    color: white;
+}
+
+#yr_sem_selection #table_content_container
+{
+    width: 100%;
+    height: 70px;
+    margin-left: 13%;
+}
+        
+#yr_sem_selection #table_content
+{
+    width: 8%;
+    height: 60px;
+    background-color: lightgray;
+    margin-left: 20px;
+    float: left;
+}
+
+#yr_sem_selection #table_content_title
+{
+    width: 440px;
+    height: 60px;
+    background-color: lightgray;
+    margin-left: 20px;
+    float: left;
+}
+
+#yr_sem_selection #box_align
+{
+    width: 20px;
+    height: 20px;
+    margin-top: 20px;
+}
+        
+#yr_sem_selection #submit_large_button
+{
+    width: 200px;
+    height: 50px;
+    margin-top: 50px;
+    font-size: 18px;
+}
+
+#yr_sem_selection #message
+{
+    width: 1125px;
+    height: 90px;
+    margin-top: 150px;
+    margin-left: 110px;
+}
+
+
+
+/* --------------------- after_4.2_course_selection_validation -----------------------*/
+
+#after_4-2_course
+{
+	min-height: 100%;
+}
+
+#message
+{
+	margin-top: 50px;
+}
+
+#message #text_alert
+{
+	color: red;
+	font-size: 180%;
+}
+
+#message #text
+{
+	color: darkolivegreen;
+	font-size: 180%;
+}
+
+#submit_large_button
+{
+    width: 200px;
+    height: 50px;
+    margin-top: 50px;
+    font-size: 18px;
+}
+
+form input
+{
+	width: 100px; 
+	height: 30px; 
+	background: transparent; 
+	border: solid 1px #252525; 
+	outline: none; 
+	border-radius: 10px; 
+	color: #252525;
+}
+form input:hover
+{
+	background-color: #252525;
+	color: white;
+	transition: all 300ms;
+}
+
+
+
+
+/* --------------------- Notification -----------------------*/
+
+#notification
+{
+	width: 100%;
+	min-height: 100%;
+}
+
+#notification #table_header_container .lefty
+{
+	margin-left: 13%;
+}
+
+#notification #table_header_container
+{
+    width: 100%;
+    height: 70px;
+    margin-top: 100px;
+}
+
+#notification #title_small
+{
+    width: 10%;
+    height: 60px;
+    background-color: darkolivegreen;
+    margin-left: 20px;
+    float: left;
+}
+
+#notification #title_large
+{
+    width: 50%;
+    height: 60px;
+    background-color: darkolivegreen;
+    margin-left: 20px;
+    float: left;
+}
+
+#notification #text_color
+{
+    color: white;
+}
+
+#notification #table_content_container
+{
+    width: 100%;
+    height: 70px;
+}
+
+#notification #table_content_container .lefty
+{
+	margin-left: 13%;
+}
+
+#notification #table_content
+{
+    width: 10%;
+    height: 60px;
+    background-color: lightgray;
+    margin-left: 20px;
+    float: left;
+}
+
+#notification #table_content_title
+{
+    width: 50%;
+    height: 60px;
+    background-color: lightgray;
+    margin-left: 20px;
+    float: left;
+}
+
+#notification #box_align
+{
+    width: 20px;
+    height: 20px;
+    margin-top: 20px;
+}
+
+#notification #table_content_name
+{
+    width: 250px;
+    height: 20px;
+    margin-left: 20px;
+    float: left;
+}
+
+#notification .approve_btn
+{
+    width: 15%;
+    height: 30px;
+    background-color: darkolivegreen;
+    margin-top: -30px;
+    margin-left: 30px;
+}
+
+#notification .disapprove_btn
+{
+    width: 15%;
+    height: 30px;
+    background-color: firebrick;
+    margin-top: -30px;
+    margin-left: 20px;
+}
+
+#notification #message
+{
+    width: 100%;
+    height: 90px;
+    margin-top: 150px;
+    margin-left: 110px;
+}
+
+#notification #text_alert
+{
+    color: red;
+}
+
+#notification #content_style
+{
+    margin-left: 50px;
+}
+
+
+
+/* --------------------- Info for sir -----------------------*/
+
+#info_for_sir
+{
+	width: 100%;
+	min-height: 70%;
+	margin-top: 40px;
+}
+
+#info_for_sir #pro_pic
+{
+	width: 30%;
+	height: 320px;
+	float: left;
+	margin-left: 13%;
+}
+
+#info_for_sir #pro_pic img
+{
+	width: 270px;
+	height: 300px;
+	border: solid 4px white;
+	border-radius: 3px;
+	box-shadow: 0px 0px 20px 2px rgba(0,0,0, .5);
+}
+
+#info_for_sir #pro_name
+{
+	width: 70%;
+	height: 20px;
+	text-align: center;
+}
+
+#info_for_sir #pro_name p a
+{
+	color: #252525;
+	font-size: 200%;
+	font-weight: bolder;
+	float: left;
+	margin-left: 40px;
+}
+
+#info_for_sir #pro_name p a:hover
+{
+	color: #388E3C;
+	transition: all 300ms;
+}
+
+#info_for_sir #text
+{
+	width: 40%;
+	height: 10px;
+	font-size: 20px;
+	color: #252525;
+	text-align: left;
+	margin-left: 3%;
+	float: left;
+}
+
+
+
+
+
+/* --------------------- Registered Course -----------------------*/
+
+#registered_course #table_header_container
+{
+    width: 80%;
+    height: 70px;
+    margin-top: 5%;
+    margin-left: 20%;
+}
+
+#registered_course #title_small
+{
+    width: 8%;
+    height: 60px;
+    background-color: darkolivegreen;
+    margin-left: 20px;
+    float: left;
+}
+
+#registered_course #title_large
+{
+    width: 440px;
+    height: 60px;
+    background-color: darkolivegreen;
+    margin-left: 20px;    
+    float: left;
+}
+        
+#registered_course #text_color
+{
+    color: white;
+}
+
+#registered_course #table_content_container
+{
+    width: 80%;
+    height: 70px;
+    margin-left: 20%;
+}
+        
+#registered_course #table_content
+{
+    width: 8%;
+    height: 60px;
+    background-color: lightgray;
+    margin-left: 20px;
+    float: left;
+}
+
+#registered_course #table_content_title
+{
+    width: 440px;
+    height: 60px;
+    background-color: lightgray;
+    margin-left: 20px;
+    float: left;
+}
+
+#registered_course #box_align
+{
+    width: 20px;
+    height: 20px;
+    margin-top: 20px;
+}
+
+
+
+
+/* --------------------- Result -----------------------*/
+
+#result #table_header_container
+{
+    width: 90%;
+    height: 70px;
+    margin-top: 5%;
+    margin-left: 8.15%;
+}
+
+#result #title_small
+{
+    width: 11.5%;
+    height: 60px;
+    background-color: darkolivegreen;
+    margin-left: 20px;
+    float: left;
+}
+
+#result #title_large
+{
+    width: 440px;
+    height: 60px;
+    background-color: darkolivegreen;
+    margin-left: 20px;
+    float: left;
+}
+#result #text_color
+{
+    color: white;
+}
+        
+#result #table_content_container
+{
+    width: 90%;
+    height: 70px;
+    margin-left: 8.15%;
+}
+
+#result #table_content
+{
+    width: 11.5%;
+    height: 60px;
+    background-color: lightgray;
+    margin-left: 20px;
+    float: left;
+}
+
+#result #table_content_title
+{
+    width: 440px;
+    height: 60px;
+    background-color: lightgray;
+    margin-left: 20px;
+    float: left;
+}
+
+#result #cgpa_info_left
+{
+    padding: 5px 20px 5px 20px;
+    background-color: #252525;
+    float: left;
+    margin-left: 11.75%;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+#result #cgpa_info_right
+{
+    padding: 5px 20px 5px 20px;
+    background-color: #252525;
+    float: right;
+    margin-right: 11.75%;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+#result #box_align
+{
+    width: 20px;
+    height: 20px;
+    margin-top: 20px;
+}
+
+
+
+/* --------------------- Switching To Progress Page -----------------------*/
+
+#switching_advisor_to_head
+{
+	width: 100%;
+	height: 150px;
+}
+
+#switching_advisor_to_head #apply_btn
+{
+	padding: 10px 100px 10px 100px;
+	border: solid 2px #252525;
+	background-color: #252525;
+	border-radius: 10px;
+	color: white;
+	margin-right: 50px;
+}
+
+#switching_advisor_to_head #progress_btn
+{
+	padding: 10px 100px 10px 100px;
+	border: solid 2px #252525;
+	background-color: white;
+	border-radius: 10px;
+	color: #252525;
+}
+#switching_advisor_to_head #progress_btn:hover
+{
+	background-color: #252525;
+	color: white;
+	transition: all 300ms;
+}
+
+
+
+
+
+
+
+/* --------------------- Switching To Apply Page -----------------------*/
+
+#switching_head_to_advisor
+{
+	width: 100%;
+	height: 150px;
+}
+
+#switching_head_to_advisor #apply_btn
+{
+	padding: 10px 100px 10px 100px;
+	border: solid 2px #252525;
+	background-color: white;
+	border-radius: 10px;
+	color: #252525;
+	margin-right: 50px;
+}
+#switching_head_to_advisor #apply_btn:hover
+{
+	background-color: #252525;
+	color: white;
+	transition: all 300ms;
+}
+
+#switching_head_to_advisor #progress_btn
+{
+	padding: 10px 100px 10px 100px;
+	border: solid 2px #252525;
+	background-color: #252525;
+	border-radius: 10px;
+	color: white;
+}
+
+
+
+
+/* --------------------- Footer -----------------------*/
+
+footer
+{
+	width: 100%;
+	height: 120px;
+	background-color: #252525;
+	margin-top: 120px;
+}
+
+footer p
+{
+	color: white;
+	font-size: 18px;
+	padding-top: 50px;
+}
+
+footer p #edited_text
+{
+	padding-right: 30px;
+}
